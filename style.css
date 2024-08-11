@@ -10,7 +10,7 @@
 .main-container {
   display: flex;
   flex-direction: column;
-  margin: 48px 0px;
+  margin: 16px 0px;
   justify-content: center;
 }
 
@@ -92,6 +92,10 @@
   gap: 64px;
   align-items: center;
   margin: 120px 15%;
+  background: #fff;
+  padding: 48px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
 }
 
 .summary-content {
@@ -560,4 +564,15 @@
   border-radius: 8px;
   background: #fff;
   box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+.hero-summary-background-section {
+  display: flex;
+  background: url(images/hero-summary-background.svg) #fff 10% / cover no-repeat; /* lightgray 10% is the background color, cover ensure img covers all container, no-repeat ensure no repeat */
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 16px;
+  padding: 0px 0px;
+  border-radius: 16px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.16);
 }

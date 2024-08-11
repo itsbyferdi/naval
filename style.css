@@ -431,12 +431,20 @@
   padding: 8px;
   background: #3e9efe;
   border-radius: 999px;
+  text-decoration: none;
 }
 
 .link-icon:hover {
   padding: 8px;
   background: #323232;
   border-radius: 999px;
+}
+
+.icon-social {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 4px;
 }
 
 .contact-section {
